@@ -1,0 +1,30 @@
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #f9f9f9;
+  padding: 20px;
+}
+.logo {
+  width: 150px;
+  margin-bottom: 20px;
+}
+h1 {
+  color: #2c3e50;
+}
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 16px;
+}
+.section {
+  margin-top: 20px;
+}
+#result {
+  margin-top: 30px;
+  white-space: pre-wrap;
+  text-align: left;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}

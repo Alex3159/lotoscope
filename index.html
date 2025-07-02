@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>LotoScope</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <img src="logo.png" alt="Logo" class="logo" />
+  <h1>LotoScope</h1>
+
+  <input type="file" id="fileInput" accept=".csv" />
+  <button onclick="loadCSV()">Importer le fichier CSV FDJ</button>
+
+  <div class="section">
+    <button onclick="simulateDraw()">🎲 Simulation de tirage</button>
+    <button onclick="showMostFrequent()">🔥 Numéros les plus fréquents</button>
+    <button onclick="showLeastFrequent()">❄️ Numéros les moins sortis</button>
+    <button onclick="showFrequencies()">📊 Fréquence de chaque numéro</button>
+    <button onclick="generateSmartGrid()">🔮 Grille intelligente (probabilité)</button>
+  </div>
+
+  <div id="result"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
